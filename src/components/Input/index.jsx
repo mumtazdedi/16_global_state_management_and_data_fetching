@@ -1,7 +1,7 @@
-import { React, useState } from 'react';
+import React, { useState } from 'react';
 import style from './style.module.css';
 /** redux */
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addTodoTask } from '../../store/TodoTask';
 
 const Input = () => {
